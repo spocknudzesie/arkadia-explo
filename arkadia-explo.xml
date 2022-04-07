@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+	<TriggerPackage />
+	<TimerPackage />
+	<AliasPackage>
+		<Alias isActive="yes" isFolder="no">
+			<name>arkadia-explo-cmd</name>
+			<script>scripts.explo:cmdExplo(matches[2])</script>
+			<command></command>
+			<packageName></packageName>
+			<regex>/eksplo(?:racja|)($|.*)</regex>
+		</Alias>
+	</AliasPackage>
+	<ActionPackage />
+	<ScriptPackage />
+	<KeyPackage />
+	<HelpPackage>
+		<helpURL></helpURL>
+	</HelpPackage>
+</MudletPackage>
